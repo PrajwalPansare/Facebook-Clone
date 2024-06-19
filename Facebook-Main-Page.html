@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facbook2</title>
+    <style>
+        .nav {
+            height:50px;
+            background-color:white;
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-nav {
+            width: 20%;
+            display: flex;
+            align-items: center;
+        }
+        #logo {
+            height: 40px;
+            border: radius 4px;
+            padding: 5px 0 5px 0;
+        }
+        .middle-nav {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .middle-nav img {
+            border-radius: 0;
+            height: 30px;
+        }
+        .right-nav {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .right-nav img { 
+            height: 30px;
+            padding: 2px;    
+        }
+        #frame {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left {
+            background-color:lightgray;
+            width: 20%;
+            margin: 10px; 
+        }
+        .left img {
+            height: 30px;
+            border-radius: 50%;
+        }
+        h5 {  
+            text-align: center;
+            margin-top:10;
+        }
+        ul {
+            padding: 2px;
+            margin-top: 3px;
+        }
+        li {
+            display: flex;
+            align-items: center;
+        }
+        li img {
+            height: 15px;
+            border-radius: 0;
+        }
+        .middle {
+            width:50%;
+            text-align: center;
+        }
+        img{
+            padding: 5px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .right {
+            background-color:lightgray;
+            width: 20%;
+            float: right;
+            margin: 10px;  
+        }
+        .right img {
+            height: 30px;
+            border-radius: 50%;  
+        }
+        h6 {
+            margin: 0px;
+        }
+        input {
+            width: 90%;
+            height: 25px;
+            margin:10px 5px ;
+            border-radius: 10px;
+            border-color: rgb(234, 224, 224);
+        }
+        .live {
+            display: flex;
+            padding-right: 5px;
+            justify-content: space-between;
+        }
+        .profile-img {
+            padding: 5px;
+            height: 40px;
+            border-radius: 50%; 
+        }
+        .post img{
+            height: 100%;
+            width: 95%;
+            border-radius: 0;
+        }
+        .like-comment-share {
+            height: 30px;    
+        }
+        label {
+            font-size:medium;
+            color: gray;  
+        }
+        .white {
+            background-color: white;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body style="background-color: lightgray;">
+    <div class="nav">
+        <div class="left-nav">
+            <a href="" ><img id="logo" src="Images/facebook.png" alt="logo"></a>
+            <input  type="text" placeholder="Search Facebook">
+        </div>
+        <div class="middle-nav"> 
+            <a href=""><img src="Images/home.png" alt="home"></a>
+            <a href=""><img src="Images/video.png" alt="video"></a>
+            <a href="" ><img src="Images/shope.png" alt="home"></a>
+            <a href="" ><img src="Images/multi-person.png" alt="multi-person"></a>
+            <a href="" ><img src="Images/map.png" alt="map"></a>
+        </div>
+        <div class="right-nav">
+            <a href="" ><li><img class="logo" src="Images/prfile.jpeg" alt="profile">
+            <h5>Pratik Kanpure</h5><li></a>
+            <a href="" ><img src="Images/plus.png" alt="plus"></a>
+            <a href="" ><img src="Images/message.png" alt="message"></a>
+            <a href="" ><img src="Images/notification.png" alt="notification"></a>
+            <a href="login-Page.html">login</a>
+        </div>
+    </div>
+    <div id="frame" >
+        <div class="left">
+            <label for="">Home</label>
+            <ul>
+            <a href="" ><li><img src="Images/prfile.jpeg" alt="profile" ><h3>Pratik Kanpure</h3></li></a>
+            <a href="" ><li><img src="Images/Watch.jpeg"alt="Watch"><h3>Watch</h3></li></a>
+            <a href="" ><li><img src="Images/Events.png" alt="Events" ><h3>Events</h3></li></a>
+            <a href="" ><li><img src="Images/Friends.jpeg" alt="Friends" ><h3>Friends</h3></li></a>
+            <a href="" ><li><img src="Images/Memories.png" alt="Memories" ><h3>Memories</h3></li></a>
+            <a href="" > <li><img src="Images/More.png" alt="More" ><h3>More</h3></li></a>
+            </ul>
+        </div >
+        <div class="middle">
+            <div class="white">
+                <div>
+                    <li><img class="profile-img" src="Images/prfile.jpeg" alt="profile"><input type="text" placeholder="What's on your mind, Pratik?"></li>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/live.jpeg" alt="live">Live</li></a>
+                    <a href="" ><li><img src="Images/photo.png" alt="photo">Photo/Video</li></a>
+                    <a href="" ><li><img src="Images/activity.png" alt="activity">Activity</li></a>
+                </div>
+            </div>
+            <div class="white">
+                <div class="live">
+                    <a href="" ><li><img class="profile-img" src="Images/virat.jpg" alt="live"><h3>Virat Kohli</h3></li></a>
+                    <a href="" ><li><img class="profile-img" src="Images/dots.png" alt="dots"> </li></a>
+                </div>
+                <div class="post">
+                    <a href="" ><img  src="Images/virat.jpg" alt="virat-post"></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/like-count.png" alt="like-count">2.5M</li></a>
+                    <a href="" ><li><img src="Images/chat.png" alt="comment">1.3k</a><a href="" ><img src="Images/share.png" alt="share">1.1k</li></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img class="like-comment-share" src="Images/like.png" alt="live">Like</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/comment.png" alt="live">Comment</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/share-B.png" alt="live">Share</li></a>
+                </div>
+            </div>
+            
+            <div class="white">
+                <div class="live">
+                    <a href="" ><li><img class="profile-img" src="Images/Rohit.jpg" alt="live"><h3>Rohit Sharma</h3></li></a>
+                    <a href="" ><li><img class="profile-img" src="Images/dots.png"> </li></a>
+                </div>
+                <div class="post">
+                    <a href="" ><img  src="Images/Rohit.jpg" alt="virat-post"></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/like-count.png" alt="like-count">2.5M</li></a>
+                    <a href="" ><li><img src="Images/chat.png" alt="live">1.3k</a><a href="" ><img src="Images/share.png" alt="live">1.1k</li></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img class="like-comment-share" src="Images/like.png" alt="live">Like</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/comment.png" alt="live">Comment</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/share-B.png" alt="live">Share</li></a>
+                </div>
+            </div>  
+
+            <div class="white">
+                <div class="live">
+                    <a href="" ><li><img class="profile-img" src="Images/dhoni.jpeg" alt="live"><h3>M. S. Doni</h3></li></a>
+                    <a href="" ><li><img class="profile-img" src="Images/dots.png"> </li></a>
+                </div>
+                <div class="post">
+                    <img  src="Images/dhoni.jpeg" alt="virat-post">
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/like-count.png" alt="like-count">2.5M</li></a>
+                    <a href="" ><li><img src="Images/chat.png" alt="comment-count">1.3k<img src="Images/share.png" alt="share-count">1.1k</li></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img class="like-comment-share" src="Images/like.png" alt="live">Like</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/comment.png" alt="Comment">Comment</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/share-B.png" alt="share">Share</li></a>
+                </div>
+            </div>  
+
+            <div class="white">
+                <div class="live">
+                    <a href="" ><li><img class="profile-img" src="Images/Rhaul.jpg" alt="live"><h3>K. L. Rahul</h3></li></a>
+                    <a href="" ><li><img class="profile-img" src="Images/dots.png"> </li></a>
+                </div>
+                <div class="post">
+                    <a href="" ><img  src="Images/Rhaul.jpg" alt="virat-post"></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/like-count.png" alt="like-count">2.5M</li></a>
+                    <a href="" ><li><img src="Images/chat.png" alt="live">1.3k</a><a href="" ><img src="Images/share.png" alt="live">1.1k</li></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img class="like-comment-share" src="Images/like.png" alt="live">Like</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/comment.png" alt="live">Comment</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/share-B.png" alt="live">Share</li></a>
+                </div>
+            </div>  
+
+            <div class="white">
+                <div class="live">
+                    <a href="" ><li><img class="profile-img" src="Images/Gill.jpeg" alt="live"><h3>Shubham Gill</h3></li></a>
+                    <a href="" ><li><img class="profile-img" src="Images/dots.png"> </li></a>
+                </div>
+                <div class="post">
+                    <a href="" ><img  src="Images/Gill.jpeg" alt="virat-post"></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img src="Images/like-count.png" alt="like-count">2.5M</li></a>
+                    <a href="" ><li><img src="Images/chat.png" alt="live">1.3k<img src="Images/share.png" alt="live">1.1k</li></a>
+                </div>
+                <div class="live">
+                    <a href="" ><li><img class="like-comment-share" src="Images/like.png" alt="live">Like</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/comment.png" alt="live">Comment</li></a>
+                    <a href="" ><li><img class="like-comment-share" src="Images/share-B.png" alt="live">Share</li></a>
+                </div>
+            </div>  
+        </div>
+        <div class="right">
+            <a href="" ><label for="">Birthday</label></a>
+            <li><img src="Images/gift-img.png" alt="gift-img"><p><strong>Rohit Sharma</strong> and 2 other have Birthday today</p></a></li>
+            <hr>
+            <label for="">contact</label>
+            <ul>
+            <a href="" ><li><img src="Images/virat.jpg" ><h3>Virat Kohli</h3></li></a>
+            <a href="" ><li><img src="Images/Rohit.jpg" ><h3>Rohit Sharma</h3></li></a>
+            <a href="" ><li><img src="Images/dhoni.jpeg" ><h3>M.S. Dhoin</h3></li></a>
+            <a href="" ><li><img src="Images/Rhaul.jpg" ><h3>K. L. Rhaul</h3></li></a>
+            <a href="" ><li><img src="Images/Gill.jpeg" ><h3>Shubham Gill</h3></li></a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
