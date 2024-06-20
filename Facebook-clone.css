@@ -1,0 +1,128 @@
+/* CSS - Facbook-Clone */
+.nav { /* navbar css */
+    height:50px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+.left-nav { /*nav-bar left side first div*/
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+#logo { /* logo */
+    height: 40px;
+    border: radius 4px;
+    padding: 5px 0 5px 0;
+}
+.middle-nav { 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-nav img { /*icon in middle nav-bar*/
+    border-radius: 0;
+    height: 30px;
+}
+.right-nav { /*nav-bar Right side first div*/
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-nav img { 
+    height: 30px;
+    padding: 2px;    
+}
+/*divide fram into three part*/
+#frame {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    background-color:lightgray;
+    width: 20%;
+    margin: 10px;
+}
+.left img {
+    height: 30px;
+    border-radius: 50%;
+}
+h5 { /* list name in left div tag */
+    text-align: center;
+    margin-top:10;
+}
+ul {
+    padding: 2px;
+    margin-top: 3px;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+li img {
+    height: 15px;
+    border-radius: 0;
+}
+.middle {
+    width:50%;
+    text-align: center;
+}
+img{
+    padding: 5px;
+    height: 40px;
+    border-radius: 50%;
+}
+.right {
+    background-color:lightgray;
+    width: 20%;
+    float: right;
+    margin: 10px; 
+}
+.right img {
+    height: 30px;
+    border-radius: 50%;  
+}
+h6 {
+    margin: 0px;
+}
+input {
+    width: 90%;
+    height: 25px;
+    margin:10px 5px ;
+    border-radius: 10px;
+    border-color: rgb(234, 224, 224);
+}
+.live {
+    display: flex;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+.profile-img {
+    padding: 5px;
+    height: 40px;
+    border-radius: 50%; 
+}
+.post img{
+    height: 100%;
+    width: 95%;
+    border-radius: 0;
+}
+.like-comment-share {
+    height: 30px;    
+}
+label {
+    font-size:medium;
+    color: gray;  
+}
+.white {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
